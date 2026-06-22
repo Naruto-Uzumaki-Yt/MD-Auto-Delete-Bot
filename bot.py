@@ -124,8 +124,8 @@ async def callback_handler(_, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🔙 ʙᴀᴄᴋ", callback_data="back")]])
         )
     elif query.data == "about":
-    await query.message.edit_text(
-        """<b>ℹ️ ᴀʙᴏᴜᴛ</b>
+        await query.message.edit_text(
+             """<b>ℹ️ ᴀʙᴏᴜᴛ</b>
 
 ⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
 ‣ ᴍʏ ɴᴀᴍᴇ : <a href="https://t.me/MD_AutoDelete_bot">ᴍᴅ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ʙᴏᴛ</a>
@@ -145,7 +145,7 @@ async def callback_handler(_, query: CallbackQuery):
             ]
         ]),
         parse_mode=enums.ParseMode.HTML
-    )
+        )
     elif query.data == "back":
         await query.message.edit_text(
             "**👋 𝖶𝖾𝗅𝖼𝗈𝗆𝖾 𝖳𝗈 𝖬𝖣 𝖠𝗎𝗍𝗈 𝖣𝖾𝗅𝖾𝗍𝖾𝗋 𝖡𝗈𝗍!**\n\n**𝖨 𝖼𝖺𝗇 𝖺𝗎𝗍𝗈-𝖽𝖾𝗅𝖾𝗍𝖾 𝗀𝗋𝗈𝗎𝗉 𝗆𝖾𝗌𝗌𝖺𝗀𝖾𝗌 𝖺𝖿𝗍𝖾𝗋 𝖺 𝗌𝖾𝗍 𝗍𝗂𝗆𝖾.**\n**𝖴𝗌𝖾 𝗆𝖾 𝗂𝗇 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉𝗌 𝗍𝗈 𝗄𝖾𝖾𝗉 𝗍𝗁𝖾𝗆 𝖼𝗅𝖾𝖺𝗇.**\n\**𝗣𝗼𝘄𝗲𝗿𝗲𝗱 𝗯𝘆** @Anime_UpdatesAU",
