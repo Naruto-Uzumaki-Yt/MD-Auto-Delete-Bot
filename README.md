@@ -111,7 +111,7 @@
 </p>
 
 ---
-
+---
 <h3 align="center">
     ─「 ᴅᴇᴘʟᴏʏ ᴏɴ ʀᴀɪʟᴡᴀʏ 」─
 </h3>
@@ -123,6 +123,9 @@
 </p>
 
 </details>
+
+---
+---
 
 <details><summary>How To Keep Your Bot Alive</summary>
 <br>
@@ -162,3 +165,24 @@ After adding monitor click:
 <br><br>
 ✅ Your bot will stay alive 24/7.
 </details>
+---
+
+***Contact To Owner***
+  
+   If you got any error while deploying, Contact to Owner 
+     
+- Developer: <a href="https://t.me/Mr_Mohammed_29"><b>ᴍᴏʜᴀᴍᴍᴇᴅ</b></a>  
+- Framework: <a href="https://docs.pyrogram.org/"><b>ᴘʏʀᴏɢʀᴀᴍ</b></a>  
+
+---
+
+---
+
+## Fork and ⭐ this repo 
+<p align="center">
+  If you like this bot, give it a ⭐ on GitHub to support the project!  
+  <a href="https://github.com/MohammedDev-yt/MD-Auto-Delete-Bot" target="_blank">
+  </a>
+</p>
+
+›› **ʏᴏᴜ ᴀʀᴇ ꜰʀᴇᴇ ᴛᴏ ᴜsᴇ, ᴍᴏᴅɪꜰʏ, ᴀɴᴅ sʜᴀʀᴇ ɪᴛ — ʙᴜᴛ ʏᴏᴜ ᴍᴜsᴛ ᴀʟsᴏ ɢɪᴠᴇ ᴄʀᴇᴅɪᴛ**
