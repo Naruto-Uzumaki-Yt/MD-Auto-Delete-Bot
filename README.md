@@ -27,9 +27,9 @@
 # 🤖 MD Auto Delete Bot
 
 ![Repo Size](https://img.shields.io/github/repo-size/MohammedDev-yt/MD-Auto-Delete-Bot)
-![Stars](https://img.shields.io/github/stars/Coder-yt/filelinkbot?style=social)
-![Forks](https://img.shields.io/github/forks/Coder-yt/filelinkbot?style=social)
-![Last Commit](https://img.shields.io/github/last-commit/Coder-yt/filelinkbot)
+![Stars](https://img.shields.io/github/stars/MohammedDev-yt/MD-Auto-Delete-Bot?style=social)
+![Forks](https://img.shields.io/github/forks/MohammedDev-yt/MD-Auto-Delete-Bot?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/MohammedDev-yt/MD-Auto-Delete-Bot)
 
 ## ✨ Features
 
@@ -54,4 +54,17 @@
 - Flask (Keep-alive server)
 
 ---
+
+# Environment Variables 
+
+| Variable        | Description                                  | Example / Format              |
+|----------------|----------------------------------------------|-------------------------------|
+| API_ID         | Your Telegram API ID                         | 123456                        |
+| API_HASH       | Your Telegram API Hash                       | abcdef1234567890abcdef       |
+| BOT_TOKEN      | Bot token from BotFather                     | 123456:ABC-DEF1234ghIkl      |
+| DATABASE_URL      | MongoDB connection string                    | mongodb+srv://user:pass@...  |
+| OWNER_ID       | Telegram user ID of bot owner                | 987654321                    |
+| BOT_USERNAME   | Bot username (without @)                     | AU_AutoDelete_bot
+| FORCE_SUB_CHANNEL | Without @ [Anime_UpdatesAU]            |
+| PORT  | 8080 |
 
