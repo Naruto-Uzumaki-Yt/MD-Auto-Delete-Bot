@@ -24,6 +24,13 @@
 ![Platform](https://img.shields.io/badge/Platform-Telegram-blue)
 ![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)
 
+# 🤖 MD Auto Delete Bot
+
+![Repo Size](https://img.shields.io/github/repo-size/MohammedDev-yt/MD-Auto-Delete-Bot)
+![Stars](https://img.shields.io/github/stars/Coder-yt/filelinkbot?style=social)
+![Forks](https://img.shields.io/github/forks/Coder-yt/filelinkbot?style=social)
+![Last Commit](https://img.shields.io/github/last-commit/Coder-yt/filelinkbot)
+
 ## ✨ Features
 
 - 🕒 Auto-delete group messages after custom time (seconds)
