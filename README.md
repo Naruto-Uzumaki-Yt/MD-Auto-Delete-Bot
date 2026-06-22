@@ -73,13 +73,12 @@
 
 ## 📚 Commands
 
-  text
 ```
-- `start` - check bot is alive or not
-- `set_time 10` → set auto delete timer
-- `disable` → disable auto delete
-- `status` → show current timer
-- `broadcast <msg>` → send message to users
-- `users` → total users
+- start - check bot is alive or not
+- set_time 10 - set auto delete timer [Owner Only]
+- disable - disable auto delete [Owner Only]
+- status - show current timer [Owner Only]
+- broadcast <msg>` - send message to users [Owner Only]
+- users - total users [Owner Only]
 ```
 ---
