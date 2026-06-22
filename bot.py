@@ -63,15 +63,15 @@ async def start(_, message):
     user_id = message.from_user.id
 
     if not await check_force_sub(bot, message.chat.id, user_id):
-        btn = [[InlineKeyboardButton("🔔 Join Channel", url=f"https://t.me/{FORCE_SUB_CHANNEL}")]]
-        await message.reply("**🔒 You must join our channel to use this bot!**", reply_markup=InlineKeyboardMarkup(btn))
+        btn = [[InlineKeyboardButton("🔔 Jᴏɪɴ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{FORCE_SUB_CHANNEL}")]]
+        await message.reply("**›› ‼️ ʟᴏᴏᴋs ʟɪᴋᴇ ʏᴏᴜ ʜᴀᴠᴇɴ'ᴛ ᴊᴏɪɴᴇᴅ ᴛᴏ ᴏᴜʀ ᴄʜᴀɴɴᴇʟs ʏᴇᴛ, sᴜʙsᴄʀɪʙᴇ ɴᴏw.**", reply_markup=InlineKeyboardMarkup(btn))
         return
 
     await users.update_one({"user_id": user_id}, {"$set": {"user_id": user_id}}, upsert=True)
 
     buttons = [
-        [InlineKeyboardButton("➕ Add Your Group ➕", url=f"http://t.me/{BOT_USERNAME}?startgroup=none&admin=delete_messages")],
-        [InlineKeyboardButton("❓ Help", callback_data="help"), InlineKeyboardButton("ℹ️ About", callback_data="about")]
+        [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕", url=f"http://t.me/{BOT_USERNAME}?startgroup=none&admin=delete_messages")],
+        [InlineKeyboardButton("❓ ʜᴇʟᴘ", callback_data="help"), InlineKeyboardButton("ℹ️ ᴀʙᴏᴜᴛ", callback_data="about")]
     ]
     await message.reply_text(
         "**👋 Welcome to Auto Deleter Bot!**\n\nI can auto-delete group messages after a set time.\nUse me in your groups to keep them clean.",
