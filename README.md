@@ -65,6 +65,6 @@
 | DATABASE_URL      | MongoDB connection string                    | mongodb+srv://user:pass@...  |
 | OWNER_ID       | Telegram user ID of bot owner                | 987654321                    |
 | BOT_USERNAME   | Bot username (without @)                     | AU_AutoDelete_bot
-| FORCE_SUB_CHANNEL | Without @ [Anime_UpdatesAU]            |
+| FORCE_SUB_CHANNEL | Without @ | Anime_UpdatesAU       |
 | PORT  | 8080 |
 
